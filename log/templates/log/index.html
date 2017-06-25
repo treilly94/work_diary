@@ -4,7 +4,6 @@
 
 {% if latest_exp_list %}
 	{% for exp in latest_exp_list %}
-		{% if exp.user == 'Tom'}
 			<p>{{ exp.user }}</p>
 			<p>{{ exp.field }}</p>
 			<p>{{ exp.description }}</p>

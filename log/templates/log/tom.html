@@ -1,6 +1,43 @@
-{% extends 'base.html' %}
 
-{%block content %}
+<html lang="en">
+<head>
+	<meta charset='utf-8'>
+	<meta name='description' content='template'>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<!-- Our stylesheet -->
+	<link rel='stylesheet' type='text/css' href='css.css'>
+</head>
+<body>
+	<!--navigation-->
+	{% block nav %}
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>                        
+				  </button>
+				  <a class="navbar-brand" href="#">Logs</a>
+				</div>
+				<div class="collapse navbar-collapse" id="myNavbar">
+				  <ul class="nav navbar-nav">
+					<li class="active"><a href="{% url 'index' %}">Home</a></li>
+					<li><a href="{% url 'tom' %}">Tom</a></li>
+					<li><a href="kayleigh.html">Kayleigh</a></li>
+					<li><a href="stuart.html">Stuart</a></li>
+					<li><a href="future.html">Da Future</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	{% endblock %}
 <!-- main page -->
 <div class="container-fluid text-center"> 
 	<div class="col-sm-8 text-left">
@@ -18,4 +55,4 @@
 		{% endif %}
 	</div>
 	</div>
-{% end block %}
+
