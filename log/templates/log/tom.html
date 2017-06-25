@@ -1,0 +1,45 @@
+<!DOCTYPR html>
+<html>
+<head>
+	<meta charset='utf-8'>
+	<meta name='description' content='template'>
+	<!-- Latest compiled and minified CSS -->
+	<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css' integrity='sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7' crossorigin='anonymous'>
+	<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+	<!-- Our stylesheet -->
+	<link rel='stylesheet' type='text/css' href='css.css'>
+</head>
+<body>
+	<!--navigation-->
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<div class="logo">
+			<img src="" width="50" height="50">
+			</div>
+			<div class="navbar-header">
+				<a href="template.html" class="navbar-brand">Logs</a>
+				<ul class="nav navbar-nav">
+					<li><a href="tom.html">Tom</a>
+					<li><a href="kayleigh.html">Kayleigh</a>
+					<li><a href="stuart.html">Stuart</a>
+					<li><a href="future.html">Da Future</a>
+				</ul>
+				
+			</div>
+		</div>
+	</nav>	
+
+
+
+
+{% if latest_exp_list %}
+    {% for exp in latest_exp_list %}
+        <p>{{ exp.user }}</p>
+        <p>{{ exp.field }}</p>
+        <p>{{ exp.description }}</p>
+        <p>{{ exp.date }}</p>
+        <br>
+    {% endfor %}
+{% else %}
+    <p>No exp is available.</p>
+{% endif %}
