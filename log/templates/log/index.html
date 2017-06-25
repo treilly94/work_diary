@@ -1,51 +1,14 @@
-<!DOCTYPR html>
-<html lang="en">
-<head>
-	<meta charset='utf-8'>
-	<meta name='description' content='template'>
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<!-- Our stylesheet -->
-	<link rel='stylesheet' type='text/css' href='css.css'>
-</head>
-<body>
-	<!--navigation-->
-	{% block sidebar %}
-	<nav class="navbar navbar-default navbar-fixed-top">
-		<div class="container-fluid">
-			<div class="navbar-header">
-				  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>                        
-				  </button>
-				  <a class="navbar-brand" href="#">Logs</a>
-				</div>
-				<div class="collapse navbar-collapse" id="myNavbar">
-				  <ul class="nav navbar-nav">
-					<li class="active"><a href="{% url 'index' %}">Home</a></li>
-					<li><a href="{% url 'tom' %}">Tom</a>
-					<li><a href="kayleigh.html">Kayleigh</a>
-					<li><a href="stuart.html">Stuart</a>
-					<li><a href="future.html">Da Future</a>
-				</ul>
-				<ul class="nav navbar-nav navbar-right">
-					<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-				</ul>
-			</div>
-		</div>
-	</nav>
-	{% endblock %}
+{% extends "base.html" %}
+
+{% block nav-index %}<strong class="nav-active">Home</strong>{% endblock %}
 	
-	<div class="container-fluid text-center"> 
-		<div class="col-sm-8 text-left">
-			<h1>Welcome</h1>
-			<p>Here lies da logs</p>
-		</div>
-			
+<div class="container-fluid text-center"> 
+	<div class="col-sm-8 text-left">
+		<h1>Welcome</h1>
+		<p>Here lies da logs</p>
 	</div>
+		
+</div>
 
 <footer class="container-fluid text-center">
   <p>Hi Guys</p>
