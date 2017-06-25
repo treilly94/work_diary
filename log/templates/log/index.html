@@ -41,10 +41,11 @@
 		<div class="col-sm-8 text-left">
 			{% if latest_exp_list %}
 				{% for exp in latest_exp_list %}
-					<p>{{ exp.user }}</p>
-					<p>{{ exp.field }}</p>
-					<p>{{ exp.description }}</p>
-					<p>{{ exp.date }}</p>
+					{% if exp.user == 'Tom'}
+						<p>{{ exp.user }}</p>
+						<p>{{ exp.field }}</p>
+						<p>{{ exp.description }}</p>
+						<p>{{ exp.date }}</p>
 					<br>
 				{% endfor %}
 			{% else %}
