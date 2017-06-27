@@ -17,3 +17,6 @@ def tom(request):
         'latest_exp_list': latest_exp_list,
     }
     return render(request, 'log/tom.html', context)
+
+def base(request):
+    return render(request, 'log/base.html')
