@@ -14,9 +14,9 @@ class IndexView(generic.ListView):
         """
         return Exp.objects.order_by('-date')
 
-class tom(generic.DetailView):
+class DetailView(generic.DetailView):
     model = Exp
-    template_name = 'log/tom.html'
+    template_name = 'log/detail.html'
 
     def get_queryset(self):
         """
