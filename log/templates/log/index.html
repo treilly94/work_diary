@@ -2,6 +2,8 @@
 
 {% block content %}
 
-<p>Welcome to loging site<p>
+{% for exp in latest_exp_list %}
+    <h3><a href="">{{ exp.date }} {{exp.user}}</a></h3>
+{% endfor %}
 
 {% endblock %}
