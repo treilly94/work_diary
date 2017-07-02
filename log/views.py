@@ -14,6 +14,16 @@ class IndexView(generic.ListView):
         """
         return Exp.objects.order_by('-date')
 
+class UserView(generic.ListView):
+    template_name = 'log/users.html'
+    context_object_name = 'user_list'
+
+    def get_queryset(self):
+        """
+        Return the all Exp alphabetically
+        """
+        return Exp.objects.distinct('user').order_by('-user')
+
 class DetailView(generic.DetailView):
     model = Exp
     template_name = 'log/detail.html'
