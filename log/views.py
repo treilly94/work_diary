@@ -12,7 +12,7 @@ class IndexView(generic.ListView):
         """
         Return the all Exp alphabetically
         """
-        return Exp.objects.order_by('date')
+        return Exp.objects.order_by('-date')
 
 class tom(generic.DetailView):
     model = Exp
