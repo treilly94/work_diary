@@ -1,5 +1,3 @@
-from django.shortcuts import render
-from django.http import HttpResponse
 from django.views import generic
 
 from .models import Exp
@@ -16,12 +14,16 @@ class IndexView(generic.ListView):
         """
         return Exp.objects.order_by('date')
 
-def tom(request):
-    latest_exp_list = Exp.objects.order_by('date')[:5]
-    context = {
-        'latest_exp_list': latest_exp_list,
-    }
-    return render(request, 'log/tom.html', context)
+class tom(generic.DetailView):
+    model = Exp
+    template_name = 'log/tom.html'
+
+    def get_queryset(self):
+        """
+        Excludes any questions that aren't published yet.
+        """
+        return Exp.objects
+
 
 def base(request):
     return render(request, 'log/base.html')
