@@ -7,4 +7,4 @@ class ExpAdmin(admin.ModelAdmin):
     list_filter = ['user', 'field']
     search_fields = ['user', 'field']
 
-admin.site.register(Exp)
+admin.site.register(Exp, ExpAdmin)
