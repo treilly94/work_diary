@@ -1,0 +1,7 @@
+{% extends 'log/base.html' %}
+
+{% block content %}
+{% for exp in latest_exp_list %}
+    <h3><a href="{% url 'detail' exp.id %}">{{ exp.date }} {{exp.user}}</a></h3>
+{% endfor %}
+{% endblock %}
