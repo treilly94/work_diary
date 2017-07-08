@@ -24,7 +24,7 @@ class UserView(generic.ListView):
         """
         return Exp.objects.distinct('user').order_by('-user')
 
-class blogView(generic.ListView):
+class BlogView(generic.ListView):
     template_name = 'log/blog.html'
     context_object_name = 'latest_exp_list'
 
