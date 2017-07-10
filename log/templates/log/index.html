@@ -2,8 +2,114 @@
 
 {% block content %}
 
-{% for exp in latest_exp_list %}
-    <h3><a href="{% url 'detail' exp.id %}">{{ exp.date }} {{exp.user}}</a></h3>
-{% endfor %}
+<div class="container-fluid" style="margin-top:50px">
+  <div class="row content">
+    <div class="col-sm-2 sidenav">
+      <h4>John Doe</h4>
+      <img src="http://www.ruralagriventures.com/wp-content/uploads/2017/05/man-team.jpg" style="width: 100%">
+      
+      <ul class="nav nav-pills nav-stacked">
+      	<hr>
+        <li class="active"><a href="#section1">Home</a></li>
+        <li><a href="#section2">Bio</a></li>
+        <li><a href="#section3">Friends</a></li>
+        <li><a href="#section4">Projects</a></li>
+		<li><a href="#section6">Your Blogs</a></li>
+		<li><a href="#section7">Your Team</a></li>
+      </ul><br>
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="Search..">
+        <span class="input-group-btn">
+          <button class="btn btn-default" type="button">
+            <span class="glyphicon glyphicon-search"></span>
+          </button>
+        </span>
+      </div>
+	  <hr>
+      <div class ="">
+      <img src="https://png.icons8.com/facebook/color/24" style="width: 18%">
+      <img src="https://png.icons8.com/linkedin/color/24" style="width: 18%">
+      <img src="https://png.icons8.com/website/Dusk_Wired/64" style="width: 18%">
+      <img src="https://png.icons8.com/youtube-2/color/24" style="width: 18%">
+      <img src="https://png.icons8.com/git/color/24" style="width: 18%">
+      </div>
+    </div>
+	<div class="col-sm-7">
+	  <div class="row">
+        <div class="col-sm-12">
+          <div class="panel panel-default text-left">
+            <div class="panel-body">
+				<h1>Latest things to do</h1>
+				<p>Work log due on sunday<p>
+				<p>this social is upcoming</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="well">
+           <p>Social Activites</p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="well">
+           <p>QA Events</p>
+          </div>
+        </div>
+		<div class="col-sm-4">
+          <div class="well">
+           <p>Tech conferences</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="well">
+           <p>Social Blogs</p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="well">
+           <p>Work Blogs</p>
+          </div>
+        </div>
+		<div class="col-sm-4">
+          <div class="well">
+           <p>Tech Blogs</p>
+          </div>
+        </div>
+      </div>
+	  <div class="row">
+        <div class="col-sm-12">
+          <div class="panel panel-default text-left">
+            <div class="panel-body">
+				<h1>Latest FQAS</h1>
+				<p>Stuck on this<p>
+				<p>this isnt working</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+	
+    <div class="col-sm-3 well">
+	<h1>Upcoming Events:</h1>
+      <div class="thumbnail">
+        <img src="paris.jpg" alt="Paris" width="400" height="300">
+        <p><strong>Paris</strong></p>
+        <p>Fri. 27 November 2015</p>
+        <button class="btn btn-primary">Info</button>
+      </div>      
+      <div class="thumbnail">
+        <img src="football.jpg" alt="Paris" width="400" height="300">
+        <p><strong>Footbal</strong></p>
+        <p>Every Saturday</p>
+        <button class="btn btn-primary">Info</button>
+      </div>      
+    </div>
+	</div>
+</div>
 
 {% endblock %}

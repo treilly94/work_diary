@@ -24,15 +24,15 @@ class UserView(generic.ListView):
         """
         return Exp.objects.distinct('user').order_by('-user')
 
-class FieldView(generic.ListView):
-    template_name = 'log/field.html'
-    context_object_name = 'field_list'
+class BlogView(generic.ListView):
+    template_name = 'log/blog.html'
+    context_object_name = 'latest_exp_list'
 
     def get_queryset(self):
         """
         Return the all Exp alphabetically
         """
-        return Exp.objects.distinct('field').order_by('field')
+        return Exp.objects.order_by('-date')
 
 class DetailView(generic.DetailView):
     model = Exp
