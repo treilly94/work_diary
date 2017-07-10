@@ -1,7 +1,80 @@
+<link rel="stylesheet" type="text/css" href="/css/changelists.css" />
 {% extends 'log/base.html' %}
 
-{% block content %}
-{% for exp in latest_exp_list %}
-    <h3><a href="{% url 'detail' exp.id %}">{{ exp.date }} {{exp.user}}</a></h3>
-{% endfor %}
-{% endblock %}
+<div id="content" class="flex">
+	<h1>Blogs</h1>
+	<div id="content-main">
+	<ul class="object-tools">
+		<li><a href="{% url 'create_blog' %}">Create a Blog</li>
+	</ul>
+	<div class="module filtered" id="changelist">
+		<div id="toolbar">
+			<form id="changelist-search" method="get">
+			<div id="changelist-filter">
+				<h2>Filter</h2>
+				<h3> By user </h3>
+				<ul>
+					{% for exp in latest_exp_list %}
+						<li><a href="{% url 'detail' exp.id %}">{{ exp.user }} </a></li>
+					{% endfor %}
+				</ul>
+				<h3> By Type </h3>
+				<ul>
+					{% for exp in latest_exp_list %}
+						<li><a href="{% url 'detail' exp.id %}">{{ exp.field }} </a></li>
+					{% endfor %}
+				</ul>
+			</div>
+			<form id="changelist-form" method="post" novalidate><input type='hidden' name='csrfmiddlewaretoken' value='ZelBKDadxfw0hQjbW3CzDWRPHcDqMD3tzYUJTPtm1uuvuIslQB51oR5m0d2YmsFY' />
+			<div class="actions">
+				<label>Action: <select name="action" required>
+					<option value="" selected>---------</option>
+					<option value="delete_selected">Delete selected exps</option>
+				</select></label>
+				<input type="hidden" name="select_across" value="0" class="select-across" />
+				<button type="submit" class="button" title="Run the selected action" name="index" value="0">Go</button>
+				<span class="action-counter" data-actions-icnt="10">0 of 10 selected</span>
+			</div>
+			<div class="results">
+				<table id="result_list">
+					<thead>
+					<tr>
+						<th scope="col"  class="action-checkbox-column">
+						<div class="text"><span><input type="checkbox" id="action-toggle" /></span></div>
+						<div class="clear"></div>
+						</th>
+						<th scope="col"  class="sortable column-date sorted descending">
+							<div class="sortoptions">
+								<a class="sortremove" href="?o=" title="Remove from sorting"></a>
+								<a href="?o=1" class="toggle descending" title="Toggle sorting"></a>
+							</div>
+							<div class="text"><a href="?o=1">Date</a></div>
+							<div class="clear"></div>
+						</th>
+						<th scope="col"  class="sortable column-user">
+							<div class="text"><a href="?o=2.-1">User</a></div>
+							<div class="clear"></div>
+						</th>
+						<th scope="col"  class="sortable column-field">
+							<div class="text"><a href="?o=3.-1">Type</a></div>
+							<div class="clear"></div>
+						</th>
+					</tr>
+					</thead>
+					<tbody>
+						{% for exp in latest_exp_list %}
+							<tr class="row1">
+								<th class="field-date nowrap"><a href="{% url 'detail' exp.id %}">{{ exp.date }}</a></th>
+								<td class="field-user">{{ exp.user }}</td>
+								<td class="field-field">{{ exp.field }}</td>
+							</tr>
+						{% endfor %}
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+	</div>
+</div>
+
+
