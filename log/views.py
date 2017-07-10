@@ -47,3 +47,13 @@ class DetailView(generic.DetailView):
 
 def base(request):
     return render(request, 'log/base.html')
+	
+class DetailView(generic.DetailView):
+    model = Exp
+    template_name = 'log/future.html'
+
+    def get_queryset(self):
+        """
+        Excludes any questions that aren't published yet.
+        """
+        return Exp.objects
