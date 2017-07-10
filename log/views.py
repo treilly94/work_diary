@@ -48,9 +48,9 @@ class DetailView(generic.DetailView):
 def base(request):
     return render(request, 'log/base.html')
 	
-class DetailView(generic.DetailView):
+class LoginView(generic.LoginView):
     model = Exp
-    template_name = 'log/future.html'
+    template_name = 'log/login.html'
 
     def get_queryset(self):
         """
