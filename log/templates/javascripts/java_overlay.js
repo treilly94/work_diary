@@ -1,6 +1,6 @@
 function openBlogCreation() {
-    document.getElementById("newBlog").style.height = "100%";
+    document.getElementById("newBlog").style.display = "block";
 }
 function closeBlogCreation() {
-    document.getElementById("newBlog").style.height = "0%";
+    document.getElementById("newBlog").style.display = "none";
 }
