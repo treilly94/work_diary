@@ -1,7 +1,32 @@
 {% extends 'log/base.html' %}
-
 {% block content %}
-	{% for exp in latest_exp_list %}
-		<h3><a href="{% url 'detail' exp.id %}">{{ exp.date }} {{exp.user}}</a></h3>
-	{% endfor %}
+<div id="newBlog" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeBlogCreation()">&times;</a>
+  <div class="overlay-content">
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Clients</a>
+    <a href="#">Contact</a>
+  </div>
+</div>
+
+
+<div class="container-fluid" style="margin-top:50px">
+  <div class="row content">
+    <div class="col-sm-7">
+		<h1>Blogs</h1>
+	</div>
+	<div class="col-sm-5">
+		<span style="font-size:30px;cursor:pointer" onclick="openBlogCreation()">&#9776; Create A Blog</span>
+	</div>
+
+
+<script>
+function openBlogCreation() {
+    document.getElementById("newBlog").style.height = "100%";
+}
+function closeBlogCreation() {
+    document.getElementById("myNav").style.height = "0%";
+}
+</script>
 {% endblock %}
