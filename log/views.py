@@ -57,3 +57,23 @@ class LoginView(generic.ListView):
         Excludes any questions that aren't published yet.
         """
         return Exp.objects
+
+class CreateBlogView(generic.ListView):
+    model = Exp
+    template_name = 'log/createblog.html'
+
+    def get_queryset(self):
+        """
+        Excludes any questions that aren't published yet.
+        """
+        return Exp.objects
+
+class ManageBlogView(generic.ListView):
+    model = Exp
+    template_name = 'log/manageblogs.html'
+
+    def get_queryset(self):
+        """
+        Excludes any questions that aren't published yet.
+        """
+        return Exp.objects
