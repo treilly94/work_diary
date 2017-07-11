@@ -48,7 +48,7 @@ class DetailView(generic.DetailView):
 def base(request):
     return render(request, 'log/base.html')
 	
-class LoginView(generic.LoginView):
+class LoginView(generic.ListView):
     model = Exp
     template_name = 'log/login.html'
 
