@@ -25,7 +25,7 @@ class UserView(generic.ListView):
         return Exp.objects.distinct('user').order_by('-user')
 
 class BlogView(generic.ListView):
-    template_name = 'log/blog.html'
+    template_name = 'blog/blog.html'
     context_object_name = 'latest_exp_list'
 
     def get_queryset(self):
@@ -60,7 +60,7 @@ class LoginView(generic.ListView):
 
 class CreateBlogView(generic.ListView):
     model = Exp
-    template_name = 'log/createblog.html'
+    template_name = 'blog/createblog.html'
 
     def get_queryset(self):
         """
@@ -70,7 +70,7 @@ class CreateBlogView(generic.ListView):
 
 class ManageBlogView(generic.ListView):
     model = Exp
-    template_name = 'log/manageblogs.html'
+    template_name = 'blog/manageblogs.html'
 
     def get_queryset(self):
         """
