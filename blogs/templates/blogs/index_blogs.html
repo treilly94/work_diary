@@ -1,0 +1,36 @@
+{% extends 'blogs/base.html' %}
+
+<!-- The name of the title bar -->
+{% block title %}
+Blogs
+{% endblock %}
+
+<!-- Any stylesheets that need added for this page -->
+{% block stylesheets %}
+<link rel="stylesheet" type="text/ccss" href="/static/buttons.css">
+{% endblock %}
+
+<!-- Content between the header and the footer -->
+{% block content %}
+<!--<div class="container-fluid" style="margin-top:50px">
+  <div class="row content">
+    <div class="col-sm-7">
+		<h1>Blogs</h1>
+	</div>
+	<div class="col-sm-5">
+		<button class="button"><a href="#">Create a Blog</a></button>
+		<button class="button" href="#"><span>Manage Your Blogs</span></button>
+	</div>
+  </div>
+</div>-->
+
+{% if work_logs %}
+    {% for author in work_logs %}
+        <p>author</p>
+    {% endfor %}
+{% else %}
+    <p>Sorry there are no work logs current available</p>
+{% endif %}
+
+
+{% endblock %}
