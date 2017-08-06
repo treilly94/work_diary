@@ -10,4 +10,4 @@ def index_blog(request):
 # View a person blog
 def detail_blog(request, blog_id):
     view_blog = get_object_or_404(Exp, pk=blog_id)
-    return render(request, 'log/detail.html', {'view_blog': view_blog})
+    return render(request, 'log/detail_blog.html', {'view_blog': view_blog})

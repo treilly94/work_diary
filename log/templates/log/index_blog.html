@@ -1,3 +1,13 @@
+<!-- Extending base html -->
+{% extends 'log/base.html' %}
+
+<!-- Title of page to edit-->
+{% block title %}Blogs{% endblock %}
+
+
+<!-- Content to edit -->
+{% block content %}
+
 {% if all_blogs %}
     {% for blog in all_blogs %}
         <li><a href="{% url 'blog:detail_blog' blog.id  %}">{{ blog.title }}</a></li> -- {{ blog.author }}  -- {{ blog.creation_date }} </p>
@@ -5,5 +15,8 @@
 {% else %}
     <p>Sorry there are no work logs current available</p>
 {% endif %}
+
+
+{% endblock %}
 
 
