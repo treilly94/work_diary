@@ -25,79 +25,47 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="{% url 'music:index' %}">Viberr</a>
+			<a class="navbar-brand" href="{% url 'blog:index_blog' %}">Work Blogs</a>
         </div>
 
         <!-- Items -->
         <div class="collapse navbar-collapse" id="topNavBar">
             <ul class="nav navbar-nav">
-                <li class="{% block profile_active %}{% endblock %}"><a href="{% url 'music:profile' %}"><span class="glyphicon glyphicon-cd" aria-hidden="true"></span>&nbsp; Profile</a></li>
-                <li class="{% block songs_active %}{% endblock %}"><a href="{% url 'music:people' 'all' %}"><span class="glyphicon glyphicon-music" aria-hidden="true"></span>&nbsp; People</a></li>
-            	<li class="{% block songs_active %}{% endblock %}"><a href="{% url 'music:index_blog' 'all' %}"><span class="glyphicon glyphicon-music" aria-hidden="true"></span>&nbsp; Blogs</a></li>
-				<li class="{% block songs_active %}{% endblock %}"><a href="{% url 'music:technologies' 'all' %}"><span class="glyphicon glyphicon-music" aria-hidden="true"></span>&nbsp; Technologies</a></li>
+                <li class="{% block profile_active %}{% endblock %}"><a href="#"><span class="glyphicon glyphicon-cd" aria-hidden="true"></span>&nbsp; Profile</a></li>
+                <li class="{% block people_active %}{% endblock %}"><a href="#"><span class="glyphicon glyphicon-music" aria-hidden="true"></span>&nbsp; People</a></li>
+            	<li class="{% block blog_active %}{% endblock %}"><a href="{% url 'blog:index_blog' %}"><span class="glyphicon glyphicon-music" aria-hidden="true"></span>&nbsp; Blogs</a></li>
+				<li class="{% block tech_active %}{% endblock %}"><a href="#"><span class="glyphicon glyphicon-music" aria-hidden="true"></span>&nbsp; Technologies</a></li>
 			</ul>
-
-
-
-
-
-
-				<div class="collapse navbar-collapse" id="myNavbar">
-				  <ul class="nav navbar-nav">
-					<li><a href="#">Home</a></li>
-					<li><a href="#">Profile</a></li>
-					<li class="dropdown">
-					<a class="dropdown-toggle" data-toggle="dropdown" href="#">People
-					<span class="caret"></span></a>
-					<ul class="dropdown-menu">
-					  <li><a href="#">Friends</a></li>
-					  <li><a href="#">Find People</a></li>
-					</ul></li>
-					<li><a href="{% url 'blog:index_blog' %}">Blogs</a></li>
-					<li class="dropdown">
-					<a class="dropdown-toggle" data-toggle="dropdown" href="#">Technology
-					<span class="caret"></span></a>
-					<ul class="dropdown-menu">
-					  <li><a href="#">Big Data</a></li>
-					  <li><a href="#">MiddleWare</a></li>
-					  <li><a href="#">Front End</a></li>
-					</ul></li>
-				</ul>
-				<form class="navbar-form navbar-right" role="search">
-					<div class="form-group input-group">
-					  <input type="text" class="form-control" placeholder="Search..">
-					  <span class="input-group-btn">
-						<button class="btn btn-default" type="button">
-						  <span class="glyphicon glyphicon-search"></span>
-						</button>
-					  </span>
-					</div>
-				 </form>
-				<ul class="nav navbar-nav navbar-right">
-					<li><a href="#"><i class="fa fa-question-circle"></i> Help</a></li>
-					<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-				</ul>
-			</div>
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#"><i class="fa fa-question-circle"></i> Help</a></li>
+				<li>
+					<a href="#">
+						<span class="glyphicon glyphicon-off" aria-hidden="true"></span>&nbsp; Logout
+					</a>
+				</li>
+			</ul>
 		</div>
-	</nav>
-	{% block content %}
-	{% endblock %}
+	</div>
+</nav>
 
-	<footer class="container-fluid text-center" style="position: absolute; bottom: 0px; width: 100%; padding: 10px 15px;
-												   background-color: #f5f5f5; border-top: 1px solid #ddd; 
-												   border-bottom-right-radius: 3px; border-bottom-left-radius: 3px;
-												   color: #5e5e5e">
-		<p>&copy; Copyright ein Sheiste</p>
-	</footer>
+{% block content %}
+{% endblock %}
+
+<footer class="container-fluid text-center" style="position: absolute; bottom: 0px; width: 100%; padding: 10px 15px;
+											   background-color: #f5f5f5; border-top: 1px solid #ddd;
+											   border-bottom-right-radius: 3px; border-bottom-left-radius: 3px;
+											   color: #5e5e5e">
+	<p>&copy; Copyright ein Sheiste</p>
+</footer>
 
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="/static/jquery_min.js"></script>
-    <script>window.jQuery || document.write('<script src="/static/jquery.min.js"><\/script>')</script>
-    <script src="/static/bootstrap_min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="/static/ie10-viewport-bug-workaround.js"></script>
-  </body>
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="/static/jquery_min.js"></script>
+<script>window.jQuery || document.write('<script src="/static/jquery.min.js"><\/script>')</script>
+<script src="/static/bootstrap_min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="/static/ie10-viewport-bug-workaround.js"></script>
+</body>
 </html>

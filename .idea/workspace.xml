@@ -2,886 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3eb2ed6-60bb-4edb-ad13-8b628c8942f3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/templates/log/bas.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/bootstrap_stylesheet.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/buttons.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons-social/png/glyphicons-social-1-pinterest.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons-social/png/glyphicons-social-10-wordpress.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons-social/png/glyphicons-social-11-instapaper.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons-social/png/glyphicons-social-12-evernote.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons-social/png/glyphicons-social-13-xing.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons-social/png/glyphicons-social-14-e-mail-envelope.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons-social/png/glyphicons-social-15-dribbble.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons-social/png/glyphicons-social-16-deviantart.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons-social/png/glyphicons-social-17-read-it-later.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons-social/png/glyphicons-social-18-linked-in.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons-social/png/glyphicons-social-19-gmail.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons-social/png/glyphicons-social-2-dropbox.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons-social/png/glyphicons-social-20-pinboard.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons-social/png/glyphicons-social-21-behance.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons-social/png/glyphicons-social-22-github.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons-social/png/glyphicons-social-23-youtube.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons-social/png/glyphicons-social-24-open-id.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons-social/png/glyphicons-social-25-foursquare.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons-social/png/glyphicons-social-26-quora.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons-social/png/glyphicons-social-27-badoo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons-social/png/glyphicons-social-28-spotify.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons-social/png/glyphicons-social-29-stumbleupon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons-social/png/glyphicons-social-3-google-plus.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons-social/png/glyphicons-social-30-readability.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons-social/png/glyphicons-social-31-facebook.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons-social/png/glyphicons-social-32-twitter.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons-social/png/glyphicons-social-33-instagram.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons-social/png/glyphicons-social-34-posterous-spaces.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons-social/png/glyphicons-social-35-vimeo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons-social/png/glyphicons-social-36-flickr.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons-social/png/glyphicons-social-37-last-fm.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons-social/png/glyphicons-social-38-rss.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons-social/png/glyphicons-social-39-skype.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons-social/png/glyphicons-social-4-jolicloud.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons-social/png/glyphicons-social-40-e-mail.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons-social/png/glyphicons-social-41-vine.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons-social/png/glyphicons-social-42-myspace.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons-social/png/glyphicons-social-43-goodreads.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons-social/png/glyphicons-social-44-apple.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons-social/png/glyphicons-social-45-windows.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons-social/png/glyphicons-social-46-yelp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons-social/png/glyphicons-social-47-playstation.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons-social/png/glyphicons-social-48-xbox.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons-social/png/glyphicons-social-49-android.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons-social/png/glyphicons-social-5-yahoo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons-social/png/glyphicons-social-50-ios.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons-social/png/glyphicons-social-51-wikipedia.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons-social/png/glyphicons-social-52-pocket.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons-social/png/glyphicons-social-53-steam.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons-social/png/glyphicons-social-54-soundcloud.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons-social/png/glyphicons-social-55-slideshare.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons-social/png/glyphicons-social-56-netflix.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons-social/png/glyphicons-social-57-paypal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons-social/png/glyphicons-social-58-google-drive.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons-social/png/glyphicons-social-59-linux-foundation.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons-social/png/glyphicons-social-6-blogger.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons-social/png/glyphicons-social-60-ebay.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons-social/png/glyphicons-social-61-bitbucket.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons-social/png/glyphicons-social-62-whatsapp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons-social/png/glyphicons-social-63-buffer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons-social/png/glyphicons-social-64-medium.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons-social/png/glyphicons-social-65-stackoverflow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons-social/png/glyphicons-social-66-linux.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons-social/png/glyphicons-social-67-vk.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons-social/png/glyphicons-social-68-snapchat.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons-social/png/glyphicons-social-69-etsy.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons-social/png/glyphicons-social-7-picasa.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons-social/png/glyphicons-social-70-stackexchange.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons-social/png/glyphicons-social-8-amazon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons-social/png/glyphicons-social-9-tumblr.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-1-glass.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-10-magic.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-100-vector-path-all.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-101-font.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-102-italic.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-103-bold.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-104-text-underline.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-105-text-strike.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-106-text-height.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-107-text-width.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-108-text-resize.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-109-left-indent.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-11-envelope.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-110-right-indent.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-111-align-left.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-112-align-center.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-113-align-right.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-114-justify.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-115-list.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-116-text-smaller.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-117-text-bigger.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-118-embed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-119-embed-close.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-12-camera.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-120-table.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-121-message-full.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-122-message-empty.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-123-message-in.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-124-message-out.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-125-message-plus.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-126-message-minus.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-127-message-ban.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-128-message-flag.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-129-message-lock.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-13-heart.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-130-message-new.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-131-inbox.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-132-inbox-plus.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-133-inbox-minus.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-134-inbox-lock.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-135-inbox-in.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-136-inbox-out.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-137-cogwheel.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-138-cogwheels.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-139-picture.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-14-beach-umbrella.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-140-adjust-alt.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-141-database-lock.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-142-database-plus.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-143-database-minus.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-144-database-ban.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-145-folder-open.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-146-folder-plus.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-147-folder-minus.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-148-folder-lock.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-149-folder-flag.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-15-train.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-150-folder-new.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-151-edit.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-152-new-window.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-153-check.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-154-unchecked.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-155-more-windows.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-156-show-big-thumbnails.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-157-show-thumbnails.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-158-show-thumbnails-with-lines.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-159-show-lines.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-16-print.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-160-playlist.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-161-imac.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-162-macbook.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-163-ipad.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-164-iphone.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-165-iphone-transfer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-166-iphone-exchange.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-167-ipod.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-168-ipod-shuffle.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-169-ear-plugs.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-17-bin.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-170-record.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-171-step-backward.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-172-fast-backward.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-173-rewind.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-174-play.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-175-pause.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-176-stop.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-177-forward.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-178-fast-forward.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-179-step-forward.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-18-music.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-180-eject.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-181-facetime-video.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-182-download-alt.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-183-mute.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-184-volume-down.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-185-volume-up.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-186-screenshot.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-187-move.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-188-more.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-189-brightness-reduce.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-19-music-alt.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-190-brightness-increase.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-191-plus-sign.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-192-minus-sign.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-193-remove-sign.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-194-ok-sign.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-195-question-sign.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-196-info-sign.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-197-exclamation-sign.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-198-remove-circle.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-199-ok-circle.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-2-leaf.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-20-heart-empty.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-200-ban-circle.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-201-download.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-202-upload.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-203-shopping-cart.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-204-lock.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-205-unlock.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-206-electricity.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-207-ok.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-208-remove.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-209-cart-in.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-21-home.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-210-cart-out.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-211-arrow-left.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-212-arrow-right.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-213-arrow-down.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-214-arrow-up.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-215-resize-small.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-216-resize-full.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-217-circle-arrow-left.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-218-circle-arrow-right.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-219-circle-arrow-top.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-22-snowflake.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-220-circle-arrow-down.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-221-play-button.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-222-unshare.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-223-share.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-224-chevron-right.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-225-chevron-left.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-226-bluetooth.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-227-euro.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-228-usd.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-229-gbp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-23-fire.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-230-retweet-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-231-moon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-232-sun.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-233-cloud.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-234-direction.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-235-brush.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-236-pen.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-237-zoom-in.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-238-zoom-out.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-239-pin.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-24-magnet.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-240-albums.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-241-rotation-lock.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-242-flash.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-243-map-marker.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-244-anchor.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-245-conversation.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-246-chat.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-247-note-empty.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-248-note.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-249-asterisk.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-25-parents.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-250-divide.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-251-snorkel-diving.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-252-scuba-diving.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-253-oxygen-bottle.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-254-fins.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-255-fishes.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-256-boat.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-257-delete.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-258-sheriffs-star.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-259-qrcode.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-26-binoculars.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-260-barcode.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-261-pool.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-262-buoy.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-263-spade.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-264-bank.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-265-vcard.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-266-electrical-plug.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-267-flag.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-268-credit-card.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-269-keyboard-wireless.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-27-road.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-270-keyboard-wireless.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-271-shield.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-272-ring.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-273-cake.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-274-drink.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-275-beer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-276-fast-food.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-277-cutlery.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-278-pizza.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-279-birthday-cake.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-28-search.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-280-tablet.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-281-settings.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-282-bullets.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-283-cardio.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-284-t-shirt.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-285-pants.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-286-sweater.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-287-fabric.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-288-leather.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-289-scissors.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-29-cars.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-290-bomb.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-291-skull.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-292-celebration.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-293-tea-kettle.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-294-french-press.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-295-coffee-cup.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-296-pot.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-297-grater.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-298-kettle.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-299-hospital.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-3-dog.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-30-notes-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-300-hospital-h.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-301-microphone.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-302-webcam.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-303-temple-christianity-church.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-304-temple-islam.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-305-temple-hindu.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-306-temple-buddhist.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-307-bicycle.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-308-life-preserver.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-309-share-alt.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-31-pencil.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-310-comments.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-311-flower.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-312-baseball.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-313-rugby.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-314-ax.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-315-table-tennis.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-316-bowling.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-317-tree-conifer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-318-tree-deciduous.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-319-more-items.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-32-bus.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-320-sort.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-321-filter.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-322-gamepad.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-323-playing-dices.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-324-calculator.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-325-tie.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-326-wallet.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-327-piano.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-328-sampler.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-329-podium.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-33-wifi-alt.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-330-soccer-ball.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-331-blog.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-332-dashboard.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-333-certificate.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-334-bell.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-335-candle.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-336-pushpin.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-337-iphone-shake.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-338-pin-flag.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-339-turtle.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-34-luggage.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-340-rabbit.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-341-globe.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-342-briefcase.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-343-hdd.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-344-thumbs-up.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-345-thumbs-down.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-346-hand-right.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-347-hand-left.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-348-hand-up.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-349-hand-down.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-35-old-man.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-350-fullscreen.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-351-shopping-bag.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-352-book-open.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-353-nameplate.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-354-nameplate-alt.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-355-vases.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-356-bullhorn.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-357-dumbbell.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-358-suitcase.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-359-file-import.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-36-woman.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-360-file-export.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-361-bug.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-362-crown.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-363-smoking.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-364-cloud-upload.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-365-cloud-download.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-366-restart.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-367-security-camera.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-368-expand.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-369-collapse.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-37-file.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-370-collapse-top.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-371-globe-af.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-372-global.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-373-spray.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-374-nails.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-375-claw-hammer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-376-classic-hammer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-377-hand-saw.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-378-riflescope.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-379-electrical-socket-eu.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-38-coins.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-380-electrical-socket-us.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-381-message-forward.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-382-coat-hanger.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-383-dress.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-384-bathrobe.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-385-shirt.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-386-underwear.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-387-log-in.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-388-log-out.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-389-exit.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-39-plane.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-390-new-window-alt.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-391-video-sd.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-392-video-hd.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-393-subtitles.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-394-sound-stereo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-395-sound-dolby.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-396-sound-5-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-397-sound-6-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-398-sound-7-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-399-copyright-mark.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-4-user.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-40-notes.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-400-registration-mark.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-401-radar.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-402-skateboard.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-403-golf-course.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-404-sorting.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-405-sort-by-alphabet.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-406-sort-by-alphabet-alt.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-407-sort-by-order.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-408-sort-by-order-alt.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-409-sort-by-attributes.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-41-stats.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-410-sort-by-attributes-alt.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-411-compressed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-412-package.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-413-cloud-plus.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-414-cloud-minus.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-415-disk-save.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-416-disk-open.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-417-disk-saved.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-418-disk-remove.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-419-disk-import.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-42-charts.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-420-disk-export.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-421-tower.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-422-send.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-423-git-branch.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-424-git-create.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-425-git-private.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-426-git-delete.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-427-git-merge.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-428-git-pull-request.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-429-git-compare.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-43-pie-chart.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-430-git-commit.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-431-construction-cone.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-432-shoe-steps.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-433-plus.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-434-minus.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-435-redo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-436-undo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-437-golf.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-438-hockey.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-439-pipe.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-44-group.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-440-wrench.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-441-folder-closed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-442-phone-alt.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-443-earphone.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-444-floppy-disk.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-445-floppy-saved.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-446-floppy-remove.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-447-floppy-save.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-448-floppy-open.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-449-translate.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-45-keys.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-450-fax.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-451-factory.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-452-shop-window.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-453-shop.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-454-kiosk.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-455-kiosk-wheels.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-456-kiosk-light.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-457-kiosk-food.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-458-transfer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-459-money.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-46-calendar.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-460-header.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-461-blacksmith.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-462-saw-blade.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-463-basketball.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-464-server.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-465-server-plus.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-466-server-minus.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-467-server-ban.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-468-server-flag.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-469-server-lock.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-47-router.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-470-server-new.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-471-charging-station.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-472-gas-station.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-473-target.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-474-bed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-475-mosquito.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-476-dining-set.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-477-plate-of-food.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-478-hygiene-kit.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-479-blackboard.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-48-camera-small.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-480-marriage.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-481-bucket.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-482-none-color-swatch.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-483-bring-forward.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-484-bring-to-front.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-485-send-backward.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-486-send-to-back.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-487-fit-frame-to-image.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-488-fit-image-to-frame.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-489-multiple-displays.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-49-star-empty.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-490-handshake.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-491-child.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-492-baby-formula.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-493-medicine.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-494-atv-vehicle.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-495-motorcycle.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-496-bed-alt.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-497-tent.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-498-glasses.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-499-sunglasses.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-5-girl.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-50-star.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-500-family.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-501-education.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-502-shoes.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-503-map.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-504-cd.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-505-alert.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-506-piggy-bank.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-507-star-half.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-508-cluster.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-509-flowchart.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-51-link.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-510-commodities.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-511-duplicate.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-512-copy.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-513-paste.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-514-bath-bathtub.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-515-bath-shower.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-516-shower.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-517-menu-hamburger.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-518-option-vertical.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-519-option-horizontal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-52-eye-open.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-520-currency-conversion.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-521-user-ban.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-522-user-lock.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-523-user-flag.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-524-user-asterisk.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-525-user-alert.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-526-user-key.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-527-user-conversation.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-528-database.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-529-database-search.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-53-eye-close.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-530-list-alt.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-531-hazard-sign.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-532-hazard.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-533-stop-sign.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-534-lab.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-535-lab-alt.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-536-ice-cream.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-537-ice-lolly.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-538-ice-lolly-tasted.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-539-invoice.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-54-alarm.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-540-cart-tick.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-541-hourglass.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-542-cat.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-543-lamp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-544-scale-classic.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-545-eye-plus.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-546-eye-minus.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-547-quote.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-548-bitcoin.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-549-yen.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-55-clock.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-550-ruble.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-551-erase.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-552-podcast.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-553-firework.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-554-scale.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-555-king.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-556-queen.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-557-pawn.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-558-bishop.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-559-knight.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-56-stopwatch.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-560-mic-mute.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-561-voicemail.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-562-paragraph-alt.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-563-person-walking.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-564-person-wheelchair.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-565-underground.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-566-car-hov.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-567-car-rental.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-568-transport.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-569-taxi.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-57-projector.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-570-ice-cream-no.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-571-uk-rat-u.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-572-uk-rat-pg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-573-uk-rat-12a.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-574-uk-rat-12.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-575-uk-rat-15.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-576-uk-rat-18.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-577-uk-rat-r18.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-578-tv.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-579-sms.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-58-history.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-580-mms.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-581-us-rat-g.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-582-us-rat-pg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-583-us-rat-pg-13.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-584-us-rat-restricted.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-585-us-rat-no-one-17.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-586-equalizer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-587-speakers.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-588-remote-control.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-589-remote-control-tv.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-59-truck.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-590-shredder.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-591-folder-heart.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-592-person-running.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-593-person.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-594-voice.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-595-stethoscope.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-596-paired.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-597-activity.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-598-watch.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-599-scissors-alt.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-6-car.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-60-cargo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-600-car-wheel.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-601-chevron-up.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-602-chevron-down.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-603-superscript.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-604-subscript.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-605-text-size.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-606-text-color.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-607-text-background.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-608-modal-window.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-609-newspaper.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-61-compass.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-610-tractor.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-611-camping.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-612-camping-benches.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-613-forest.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-614-park.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-615-field.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-616-mountains.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-617-fees-payments.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-618-small-payments.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-619-mixed-buildings.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-62-keynote.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-620-industrial-zone.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-621-visitor-tag.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-622-businessman.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-623-meditation.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-624-bath.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-625-donate.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-626-sauna.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-627-bedroom-nightstand.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-628-bedroom-lamp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-629-doctor.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-63-paperclip.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-630-engineering-networks.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-631-washing-machine.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-632-dryer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-633-dishwasher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-634-luggage-group.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-635-teenager.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-636-person-stick.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-637-person-stick-old.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-638-traveler.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-639-veteran.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-64-power.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-640-group-chat.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-641-elections.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-642-law-justice.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-643-judiciary.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-644-house-fire.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-645-firefighters.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-646-police.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-647-ambulance.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-648-light-beacon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-649-important-day.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-65-lightbulb.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-650-bike-park.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-651-object-align-top.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-652-object-align-bottom.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-653-object-align-horizontal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-654-object-align-left.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-655-object-align-vertical.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-656-object-align-right.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-657-reflect-y.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-658-reflect-x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-659-tick.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-66-tag.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-660-lawnmower.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-661-call-redirect.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-662-call-ip.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-663-call-record.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-664-call-ringtone.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-665-call-traffic.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-666-call-hold.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-667-call-incoming.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-668-call-outgoing.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-669-call-video.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-67-tags.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-670-call-missed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-671-theater.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-672-heartbeat.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-673-kettlebell.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-674-fireplace.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-675-street-lights.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-676-pedestrian.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-677-flood.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-678-open-water.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-679-for-sale.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-68-cleaning.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-680-dustbin.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-681-door.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-682-camp-fire.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-683-fleur-de-lis.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-684-temperature-settings.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-685-article.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-686-sunbath.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-687-balanced-diet.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-688-ticket.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-689-parking-ticket.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-69-ruler.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-690-parking-meter.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-691-laptop.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-692-tree-structure.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-693-weather-warning.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-694-temperature-low.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-695-temperature-high.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-696-temperature-low-warning.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-697-temperature-high-warning.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-698-hurricane.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-699-storm.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-7-user-add.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-70-gift.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-700-sorted-waste.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-701-ear.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-702-ear-deaf.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-703-file-plus.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-704-file-minus.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-705-file-lock.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-706-file-cloud.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-707-file-cloud-download.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-708-file-cloud-upload.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-709-paragraph.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-71-umbrella.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-710-list-numbered.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-711-donate-heart.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-712-government.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-713-maze.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-714-chronicle.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-715-user-structure.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-716-recycle.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-717-gas.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-718-waste-pipe.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-719-water-pipe.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-72-book.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-720-parking.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-721-closed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-722-mouse.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-723-mouse-double-click.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-724-mouse-left-click.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-725-mouse-right-click.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-726-mouse-middle-click.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-727-mouse-scroll.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-728-resize-vertical.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-729-resize-horizontal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-73-bookmark.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-730-temperature.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-731-puzzle.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-732-puzzle-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-733-puzzle-3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-734-nearby-square.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-735-nearby-circle.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-736-rotate-right.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-737-rotate-left.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-738-pictures.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-739-photo-album.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-74-wifi.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-740-cadastral-map.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-741-fingerprint-scan.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-742-fingerprint.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-743-fingerprint-lock.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-744-fingerprint-ok.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-745-fingerprint-remove.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-746-fingerprint-reload.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-747-pending-notifications.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-748-synchronization.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-749-synchronization-ban.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-75-cup.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-750-hash.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-751-gender-male.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-752-gender-female.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-753-gender-virgin-female.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-754-gender-intersex.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-755-gender-transgender.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-756-gender-ori-lesbian.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-757-gender-ori-gay.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-758-gender-ori-hetero.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-759-gender-other.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-76-stroller.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-760-gender-unknown.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-761-scanner.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-762-multifunction-printer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-763-lasso.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-764-view-360.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-765-battery-charging.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-766-battery-full.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-767-battery-75.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-768-battery-50.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-769-battery-25.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-77-headphones.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-770-battery-10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-771-satellite.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-772-satellite-dish.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-773-satellite-dish-alt.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-774-auction.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-775-directions.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-776-race.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-777-robot.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-778-ruler-alt.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-779-cube-empty.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-78-headset.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-780-cube-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-781-move-square.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-782-drop.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-783-vr-headset.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-784-vr-charging.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-785-vr-low-battery.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-786-vr-paired.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-787-vr-settings.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-788-vr-maintenance.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-789-filter-remove.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-79-warning-sign.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-790-filter-applied.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-791-one-day.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-792-user-vr.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-793-user-vr-add.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-794-user-vr-remove.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-795-dice-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-796-dice-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-797-dice-3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-798-dice-4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-799-dice-5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-8-user-remove.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-80-signal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-800-dice-6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-81-retweet.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-82-refresh.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-83-roundabout.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-84-random.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-85-heat.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-86-repeat.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-87-display.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-88-log-book.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-89-address-book.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-9-film.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-90-building.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-91-eyedropper.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-92-adjust.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-93-tint.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-94-crop.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-95-vector-path-square.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-96-vector-path-circle.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-97-vector-path-polygon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-98-vector-path-line.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/glyphicons/png/glyphicons-99-vector-path-curve.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/work_log/static/humans.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/templates/log/base.html" afterPath="$PROJECT_DIR$/log/templates/log/base.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/templates/log/detail_blog.html" afterPath="$PROJECT_DIR$/log/templates/log/detail_blog.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/templates/log/index_blog.html" afterPath="$PROJECT_DIR$/log/templates/log/index_blog.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/views.py" afterPath="$PROJECT_DIR$/log/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/work_log/settings.py" afterPath="$PROJECT_DIR$/work_log/settings.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/log/templates/log/detail.html" afterPath="$PROJECT_DIR$/log/templates/log/detail_blog.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -898,8 +21,8 @@
       <file leaf-file-name="index_blog.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/log/templates/log/index_blog.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="102">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -908,18 +31,8 @@
       <file leaf-file-name="base.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/log/templates/log/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="36" column="102" lean-forward="false" selection-start-line="36" selection-start-column="102" selection-end-line="36" selection-end-column="102" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bas.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/log/templates/log/bas.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+            <state relative-caret-position="65">
+              <caret line="27" column="85" lean-forward="false" selection-start-line="27" selection-start-column="85" selection-end-line="27" selection-end-column="85" />
               <folding />
             </state>
           </provider>
@@ -935,21 +48,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/work_log/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="103" column="6" lean-forward="true" selection-start-line="103" selection-start-column="6" selection-end-line="103" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="detail_blog.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/log/templates/log/detail_blog.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="29" />
+            <state relative-caret-position="102">
+              <caret line="6" column="43" lean-forward="false" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -991,16 +94,16 @@
         <option value="$PROJECT_DIR$/log/static/log/style.html" />
         <option value="$PROJECT_DIR$/log/static/log/style.css" />
         <option value="$PROJECT_DIR$/work_log/settings.py" />
-        <option value="$PROJECT_DIR$/log/templates/log/detail_blog.html" />
-        <option value="$PROJECT_DIR$/log/templates/log/index_blog.html" />
         <option value="$PROJECT_DIR$/log/templates/log/bas.html" />
+        <option value="$PROJECT_DIR$/log/templates/log/index_blog.html" />
+        <option value="$PROJECT_DIR$/log/templates/log/detail_blog.html" />
         <option value="$PROJECT_DIR$/log/templates/log/base.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
-    <option name="width" value="974" />
+    <option name="width" value="982" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -1136,10 +239,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="-7" y="0" width="982" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2098121" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20807454" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1365,16 +468,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/log/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="71" lean-forward="false" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="71" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/log/static/log/style.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -1399,22 +492,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/log/templates/log/detail_blog.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/log/templates/log/index_blog.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/log/templates/log/bas.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -1423,10 +500,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/log/templates/log/index_blog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/templates/log/detail_blog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="43" lean-forward="false" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="71" lean-forward="false" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="71" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/log/templates/log/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="36" column="102" lean-forward="false" selection-start-line="36" selection-start-column="102" selection-end-line="36" selection-end-column="102" />
+        <state relative-caret-position="65">
+          <caret line="27" column="85" lean-forward="false" selection-start-line="27" selection-start-column="85" selection-end-line="27" selection-end-column="85" />
           <folding />
         </state>
       </provider>
