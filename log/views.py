@@ -1,79 +1,28 @@
-from django.views import generic
-
+from django.shortcuts import render, get_object_or_404
 from .models import Exp
 
+# Home page for the Blogs
+def index_blogs(request):
+    all_blogs = Exp.objects.order_by('-creation_date')
+    return render(request, 'log/index.html', {'all_blogs': all_blogs})
+
+# View a person blog
+def view_blogs(request, pk):
+    exp = get_object_or_404(Exp, pk=pk)
+    return render(request, 'log/view_blogs.html', {'exp': exp})
+
+# Favourite a blog
+def favourite(request, log_id):
+    logs = get_object_or_404(Exp, pk=log_id)
 
 
-class IndexView(generic.ListView):
-    template_name = 'log/index.html'
-    context_object_name = 'latest_exp_list'
-
-    def get_queryset(self):
-        """
-        Return the all Exp alphabetically
-        """
-        return Exp.objects.order_by('-date')
-
-class UserView(generic.ListView):
-    template_name = 'log/users.html'
-    context_object_name = 'user_list'
-
-    def get_queryset(self):
-        """
-        Return the all Exp alphabetically
-        """
-        return Exp.objects.distinct('user').order_by('-user')
-
-class BlogView(generic.ListView):
-    template_name = 'blog/blog.html'
-    context_object_name = 'latest_exp_list'
-
-    def get_queryset(self):
-        """
-        Return the all Exp alphabetically
-        """
-        return Exp.objects.order_by('-date')
-
-class DetailView(generic.DetailView):
-    model = Exp
-    template_name = 'log/detail.html'
-
-    def get_queryset(self):
-        """
-        Excludes any questions that aren't published yet.
-        """
-        return Exp.objects
+# View a person blog
+def create_blogs(request):
+    exp = Exp.objects.all()
+    return render(request, 'log/index.html', {'exp': exp})
 
 
-def base(request):
-    return render(request, 'log/base.html')
-	
-class LoginView(generic.ListView):
-    model = Exp
-    template_name = 'log/login.html'
-
-    def get_queryset(self):
-        """
-        Excludes any questions that aren't published yet.
-        """
-        return Exp.objects
-
-class CreateBlogView(generic.ListView):
-    model = Exp
-    template_name = 'blog/createblog.html'
-
-    def get_queryset(self):
-        """
-        Excludes any questions that aren't published yet.
-        """
-        return Exp.objects
-
-class ManageBlogView(generic.ListView):
-    model = Exp
-    template_name = 'blog/manageblogs.html'
-
-    def get_queryset(self):
-        """
-        Excludes any questions that aren't published yet.
-        """
-        return Exp.objects
+# View a person blog
+def manage_blogs(request):
+    exp = Exp.objects.all()
+    return render(request, 'log/index.html', {'exp': exp})

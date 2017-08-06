@@ -1,0 +1,25 @@
+{% extends 'log/base.html' %}
+
+<!-- The name of the title bar -->
+{% block title %}
+{{ Exp.title}}
+{% endblock %}
+
+<!-- Any stylesheets that need added for this page -->
+{% block stylesheets %}
+{% endblock %}
+
+<!-- Content between the header and the footer -->
+{% block content %}
+<h1>{{ Exp.author }}</h1>
+<h3>{{ Exp.creation_date}}</h3>
+<h3>{{ Exp.type}}</h3>
+{% if Exp.type = 'social' %}
+    <h3>{{ Exp.type}}</h3>
+{% else %}
+    <h3>{{ Exp.type}}</h3>
+    <h3>{{ Exp.technology}}</h3>
+{% endif %}
+
+<p>{{ Exp.description }}</p>
+{% endblock %}
