@@ -1,5 +1,5 @@
 <!-- Extending base html -->
-{% extends 'log/base.html' %}
+{% extends '../../home/templates/home/base.html' %}
 
 <!-- Title of page to edit-->
 {% block title %}Blogs{% endblock %}
@@ -9,16 +9,28 @@
 
 <!-- Content to edit -->
 {% block content %}
-
-{% if all_blogs %}
-    {% for blog in all_blogs %}
-        <li><a href="{% url 'blog:detail_blog' blog.id  %}">{{ blog.title }}</a></li> -- {{ blog.author }}  -- {{ blog.creation_date }} </p>
-    {% endfor %}
-{% else %}
-    <p>Sorry there are no work logs current available</p>
-{% endif %}
-
-
+<div class="container-fluid" style="margin-top:50px">
+  <div class="row content">
+    <div class="col-sm-7">
+		<h1>Blogs</h1>
+        {% if all_blogs %}
+            {% for blog in all_blogs %}
+                <li><a href="{% url 'blog:detail_blog' blog.id  %}">{{ blog.title }}</a></li><p>-- {{ blog.author }}  -- {{ blog.creation_date }} </p>
+            {% endfor %}
+        {% else %}
+            <p>Sorry there are no work logs current available</p>
+        {% endif %}
+	</div>
+	<div class="col-sm-5">
+        <br>
+        <a href="{% url 'blog:blog-add' %}">
+            <button type="button" class="btn btn-success">
+                <span class="glyphicon glyphicon-plus"></span>&nbsp; Add a new Blog
+            </button>
+        </a>
+    </div>
+</div>
+</div>
 {% endblock %}
 
 

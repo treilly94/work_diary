@@ -1,5 +1,5 @@
 <!-- Extending base html -->
-{% extends 'log/base.html' %}
+{% extends '../../home/templates/home//base.html' %}
 
 <!-- Title of page to edit-->
 {% block title %}Blogs{% endblock %}
@@ -8,16 +8,16 @@
 
 <!-- Content to edit -->
 {% block content %}
-<h1>{{ view_blog.title }}</h1>
-<h3>{{ view_blog.creation_date}}</h3>
-<h3>{{ view_blog.author}}</h3>
-{% if view_blog.type == 'social' %}
-    <h4>{{ view_blog.type}}</h4>
+<h1>{{ one_blog.title }}</h1>
+<h3>{{ one_blog.creation_date}}</h3>
+<h3>{{ one_blog.author}}</h3>
+{% if one_blog.type == 'social' %}
+    <h4>{{ one_blog.type}}</h4>
 {% else %}
-    <h4>{{ view_blog.type}}</h4>
-    <h4>{{ view_blog.technology}}</h4>
+    <h4>{{ one_blog.type}}</h4>
+    <h4>{{ one_blog.technology}}</h4>
 {% endif %}
 
-<p>{{ view_blog.description }}</p>
+<p>{{ one_blog.description }}</p>
 
 {% endblock %}

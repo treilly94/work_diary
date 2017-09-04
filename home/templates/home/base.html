@@ -6,7 +6,7 @@
     <title>{% block title %}{% endblock %}</title>
 	<!-- loads the path to your static files -->
 	{% load staticfiles %}
-	<link rel=stylesheet" type="text/css" href="{% static 'music/style.css' %}"/>
+	<link rel=stylesheet" type="text/css" href="{% static 'log/style.css' %}"/>
 
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -25,7 +25,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-			<a class="navbar-brand" href="{% url 'blog:index_blog' %}">Work Blogs</a>
+			<a class="navbar-brand" href="{% url 'home:index' %}">STK Logging</a>
         </div>
 
         <!-- Items -->
@@ -39,7 +39,7 @@
 			<ul class="nav navbar-nav navbar-right">
 				<li><a href="#"><i class="fa fa-question-circle"></i> Help</a></li>
 				<li>
-					<a href="#">
+					<a href="{% url 'home:logout' %}">
 						<span class="glyphicon glyphicon-off" aria-hidden="true"></span>&nbsp; Logout
 					</a>
 				</li>
