@@ -13,19 +13,8 @@ def HomeView(request):
         return render(request, 'home/home_index.html')
 
 
-class UserFormView(generic.View):
-    form_class=UserForm
-    template_name='home/registration_form.html'
-
-    #Displays a blank form
-    def get(self, request):
-        form = self.form_class(None)
-        return render(request, self.template_name, {'form': form})
-
-    # process form data
-    def get(self, request):
-        form = self.form_class(request.POST)
-
+def registration(request):
+        form = UserForm(request.POST or None)
         if form.is_valid():
             # creates an object from the form but doesn't save it to the database yet
             user = form.save(commit=False)
@@ -42,30 +31,13 @@ class UserFormView(generic.View):
                     login(request, user)
                     return redirect('home:index')
 
-        return render(request, self.template_name, {'form': form})
+        return render(request, 'home/registration.html', {'form': form})
 
-class LoginView(generic.View):
-    form_class=UserForm
-    template_name='home/login.html'
-
-    # Displays a blank form
-    def get(self, request):
-        form = self.form_class(None)
-        return render(request, self.template_name, {'form': form})
-
-    # process form data
-    def get(self, request):
-        form = self.form_class(request.POST)
-        if form.is_valid():
-            username = form.cleaned_data['username']
-            password = form.cleaned_data['password']
-            email = form.cleaned_data['email']
-
-            #returns User Objects if credentials are correct
-            if username is not None:
-                user = authenticate(username=username, password=password)
-            else:
-                user = authenticate(email=email, password=password)
+def login_user(request):
+        if request.method == "POST":
+            username = request.POST['username']
+            password = request.POST['password']
+            user = authenticate(username=username, password=password)
             if user is not None:
                 if user.is_active:
                     login(request, user)
@@ -74,6 +46,7 @@ class LoginView(generic.View):
                     return render(request, 'home/login.html', {'error_message': 'Your account has been disabled'})
             else:
                 return render(request, 'home/login.html', {'error_message': 'Invalid login'})
+        return render(request, 'home/login.html')
 
 
 
