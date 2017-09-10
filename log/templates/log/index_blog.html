@@ -1,5 +1,5 @@
 <!-- Extending base html -->
-{% extends '../../home/templates/home/base.html' %}
+{% extends 'home/base.html' %}
 
 <!-- Title of page to edit-->
 {% block title %}Blogs{% endblock %}
@@ -18,7 +18,7 @@
                 <li><a href="{% url 'blog:detail_blog' blog.id  %}">{{ blog.title }}</a></li><p>-- {{ blog.author }}  -- {{ blog.creation_date }} </p>
             {% endfor %}
         {% else %}
-            <p>Sorry there are no work logs current available</p>
+            <p>Sorry there are no blogs current available</p>
         {% endif %}
 	</div>
 	<div class="col-sm-5">

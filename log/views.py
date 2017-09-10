@@ -10,14 +10,12 @@ from .models import Exp
 
 
 # Home page for the Blogs
-class IndexBlogBiew(generic.ListView):
+class IndexBlogView(generic.ListView):
     template_name='log/index_blog.html'
     context_object_name ='all_blogs'
     def get_queryset(self):
-        if self.request.user.is_authenticated():
-            return render(request, 'log/login.html')
-        else:
-            return Exp.objects.order_by('-creation_date')
+        return Exp.objects.order_by('-creation_date')
+
 
 # View a person blog
 class DetailBlogView(generic.DetailView):
