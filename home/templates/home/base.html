@@ -7,7 +7,7 @@
 	<!-- loads the path to your static files -->
 	{% load staticfiles %}
 	<link rel=stylesheet" type="text/css" href="{% static 'log/style.css' %}"/>
-
+	{% load auth_extras %}
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -31,7 +31,6 @@
         <!-- Items -->
         <div class="collapse navbar-collapse" id="topNavBar">
             <ul class="nav navbar-nav">
-                <li class="{% block profile_active %}{% endblock %}"><a href="#"><span class="glyphicon glyphicon-cd" aria-hidden="true"></span>&nbsp; Profile</a></li>
                 <li class="{% block people_active %}{% endblock %}"><a href="#"><span class="glyphicon glyphicon-music" aria-hidden="true"></span>&nbsp; People</a></li>
             	<li class="{% block blog_active %}{% endblock %}"><a href="{% url 'blog:index_blog' %}"><span class="glyphicon glyphicon-music" aria-hidden="true"></span>&nbsp; Blogs</a></li>
 				<li class="{% block tech_active %}{% endblock %}"><a href="#"><span class="glyphicon glyphicon-music" aria-hidden="true"></span>&nbsp; Technologies</a></li>
@@ -48,8 +47,44 @@
 	</div>
 </nav>
 
+<div class="container-fluid" style="margin-top:50px">
+  <div class="row content">
+    <div class="col-sm-2 sidenav">
+      <h4>{{ user.first_name }} {{ user.last_name }}</h4>
+      <img src="http://www.ruralagriventures.com/wp-content/uploads/2017/05/man-team.jpg" style="width: 100%">
+
+      <ul class="nav nav-pills nav-stacked">
+      	<hr>
+        <li class="{% block home_active %}{% endblock %}"><a href="{% url 'home:index' %}">Home</a></li>
+        <li class="{% block profile_active %}{% endblock %}"><a href="#section2">Profile</a></li>
+        <li class="{% block progress_active %}{% endblock %}"><a href="#section3">Progress</a></li>
+		{% if request.user|has_group:"Tech Lead" %}
+        	<li class="{% block team_active %}{% endblock %}"><a href="#section3">Your Team</a></li>
+		{% endif %}
+      </ul><br>
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="Search..">
+        <span class="input-group-btn">
+          <button class="btn btn-default" type="button">
+            <span class="glyphicon glyphicon-search"></span>
+          </button>
+        </span>
+      </div>
+      <hr>
+      <div class ="">
+      <img src="https://png.icons8.com/facebook/color/24" style="width: 18%">
+      <img src="https://png.icons8.com/linkedin/color/24" style="width: 18%">
+      <img src="https://png.icons8.com/website/Dusk_Wired/64" style="width: 18%">
+      <img src="https://png.icons8.com/youtube-2/color/24" style="width: 18%">
+      <img src="https://png.icons8.com/git/color/24" style="width: 18%">
+      </div>
+    </div>
+
 {% block content %}
 {% endblock %}
+
+  </div>
+</div>
 
 <footer class="container-fluid text-center" style="position: absolute; bottom: 0px; width: 100%; padding: 10px 15px;
 											   background-color: #f5f5f5; border-top: 1px solid #ddd;

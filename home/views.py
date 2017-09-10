@@ -6,6 +6,12 @@ from django.contrib.auth import authenticate, login, logout
 from django.views import generic
 from .forms import UserForm
 
+
+
+def has_group(user, group_name):
+    return user.groups.filter(name=group_name).exists()
+
+
 def HomeView(request):
     if not request.user.is_authenticated():
         return render(request, 'home/login.html')
