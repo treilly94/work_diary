@@ -1,79 +1,38 @@
+from django.contrib.auth import authenticate, login, logout
+from django.core.urlresolvers import reverse_lazy
+from django.shortcuts import render, get_object_or_404
+from django.shortcuts import render, redirect
 from django.views import generic
+from django.views.generic.edit import CreateView, UpdateView, DeleteView
 
+from home.forms import UserForm
 from .models import Exp
 
 
-
-class IndexView(generic.ListView):
-    template_name = 'log/index.html'
-    context_object_name = 'latest_exp_list'
-
+# Home page for the Blogs
+class IndexBlogView(generic.ListView):
+    template_name='log/index_blog.html'
+    context_object_name ='all_blogs'
     def get_queryset(self):
-        """
-        Return the all Exp alphabetically
-        """
-        return Exp.objects.order_by('-date')
+        return Exp.objects.order_by('-creation_date')
 
-class UserView(generic.ListView):
-    template_name = 'log/users.html'
-    context_object_name = 'user_list'
 
-    def get_queryset(self):
-        """
-        Return the all Exp alphabetically
-        """
-        return Exp.objects.distinct('user').order_by('-user')
-
-class BlogView(generic.ListView):
-    template_name = 'blog/blog.html'
-    context_object_name = 'latest_exp_list'
-
-    def get_queryset(self):
-        """
-        Return the all Exp alphabetically
-        """
-        return Exp.objects.order_by('-date')
-
-class DetailView(generic.DetailView):
+# View a person blog
+class DetailBlogView(generic.DetailView):
     model = Exp
-    template_name = 'log/detail.html'
-
-    def get_queryset(self):
-        """
-        Excludes any questions that aren't published yet.
-        """
-        return Exp.objects
+    template_name = 'log/detail_blog.html'
+    context_object_name = 'one_blog'
 
 
-def base(request):
-    return render(request, 'log/base.html')
-	
-class LoginView(generic.ListView):
+class BlogCreate(CreateView):
     model = Exp
-    template_name = 'log/login.html'
+    fields =['author','title','technology','type', 'description', 'link']
 
-    def get_queryset(self):
-        """
-        Excludes any questions that aren't published yet.
-        """
-        return Exp.objects
-
-class CreateBlogView(generic.ListView):
+class BlogUpdate(UpdateView):
     model = Exp
-    template_name = 'blog/createblog.html'
+    fields = ['author', 'title', 'technology', 'type', 'description', 'link']
 
-    def get_queryset(self):
-        """
-        Excludes any questions that aren't published yet.
-        """
-        return Exp.objects
 
-class ManageBlogView(generic.ListView):
+class BlogDelete(DeleteView):
     model = Exp
-    template_name = 'blog/manageblogs.html'
-
-    def get_queryset(self):
-        """
-        Excludes any questions that aren't published yet.
-        """
-        return Exp.objects
+    success_url= reverse_lazy('blog:index_blog')

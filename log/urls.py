@@ -1,14 +1,22 @@
 from django.conf.urls import url
-
+from django.contrib.auth import authenticate, login
 from . import views
 
+app_name = "blog"
 urlpatterns = [
-    url(r'^$', views.IndexView.as_view(), name='index'),
-    url(r'^users/$', views.UserView.as_view(), name='users'),
-    url(r'^blog/$', views.BlogView.as_view(), name='blog'),
-	url(r'^login/$', views.LoginView.as_view(), name='login'),
-	url(r'^createblog/$', views.CreateBlogView.as_view(), name='createblog'),
-	url(r'^manageblogs/$', views.ManageBlogView.as_view(), name='manageblogs'),
-	url(r'^(?P<pk>[0-9]+)/$', views.DetailView.as_view(), name='detail'),
-	url(r'^$', views.base, name='base'),
-]
+
+    # blog homepage  ----   /blogs/
+    url(r'^$', views.IndexBlogView.as_view(), name='index_blog'),
+
+    # viewing a single blog --- /blog/<blog id>/
+    url(r'^(?P<pk>[0-9]+)/$', views.DetailBlogView.as_view(), name="detail_blog"),
+
+    # Url for creating a blog
+    url(r'add-blog/$', views.BlogCreate.as_view(), name='blog-add'),
+
+    # Url for editing a blog
+    url(r'manage-blog/(?P<pk>[0-9]+)/edit$', views.BlogUpdate.as_view(), name='blog-update'),
+
+    # Url for deleting a blog
+    url(r'delete-blog/(?P<pk>[0-9]+)/delete$', views.BlogDelete.as_view(), name='blog-delete'),
+ ]
