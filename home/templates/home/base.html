@@ -31,12 +31,9 @@
         <!-- Items -->
         <div class="collapse navbar-collapse" id="topNavBar">
             <ul class="nav navbar-nav">
-                <li class="{% block people_active %}{% endblock %}"><a href="#"><span class="glyphicon glyphicon-music" aria-hidden="true"></span>&nbsp; People</a></li>
             	<li class="{% block blog_active %}{% endblock %}"><a href="{% url 'blog:index_blog' %}"><span class="glyphicon glyphicon-music" aria-hidden="true"></span>&nbsp; Blogs</a></li>
-				<li class="{% block tech_active %}{% endblock %}"><a href="#"><span class="glyphicon glyphicon-music" aria-hidden="true"></span>&nbsp; Technologies</a></li>
 			</ul>
 			<ul class="nav navbar-nav navbar-right">
-				<li><a href="#"><i class="fa fa-question-circle"></i> Help</a></li>
 				<li>
 					<a href="{% url 'home:logout_user' %}">
 						<span class="glyphicon glyphicon-off" aria-hidden="true"></span>&nbsp; Logout
@@ -56,28 +53,7 @@
       <ul class="nav nav-pills nav-stacked">
       	<hr>
         <li class="{% block home_active %}{% endblock %}"><a href="{% url 'home:index' %}">Home</a></li>
-        <li class="{% block profile_active %}{% endblock %}"><a href="#section2">Profile</a></li>
-        <li class="{% block progress_active %}{% endblock %}"><a href="#section3">Progress</a></li>
-		{% if request.user|has_group:"Tech Lead" %}
-        	<li class="{% block team_active %}{% endblock %}"><a href="#section3">Your Team</a></li>
-		{% endif %}
       </ul><br>
-      <div class="input-group">
-        <input type="text" class="form-control" placeholder="Search..">
-        <span class="input-group-btn">
-          <button class="btn btn-default" type="button">
-            <span class="glyphicon glyphicon-search"></span>
-          </button>
-        </span>
-      </div>
-      <hr>
-      <div class ="">
-      <img src="https://png.icons8.com/facebook/color/24" style="width: 18%">
-      <img src="https://png.icons8.com/linkedin/color/24" style="width: 18%">
-      <img src="https://png.icons8.com/website/Dusk_Wired/64" style="width: 18%">
-      <img src="https://png.icons8.com/youtube-2/color/24" style="width: 18%">
-      <img src="https://png.icons8.com/git/color/24" style="width: 18%">
-      </div>
     </div>
 
 {% block content %}
