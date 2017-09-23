@@ -70,6 +70,6 @@ def logout_user(request):
     return render(request, 'home/login.html', context)
 
 
-class CreateAccount(CreateView):
+class CreateAccountView(CreateView):
     model = Account
     fields =['user','date_of_birth','location']
