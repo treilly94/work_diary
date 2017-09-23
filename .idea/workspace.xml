@@ -2,44 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3eb2ed6-60bb-4edb-ad13-8b628c8942f3" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/home/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/home/admin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/home/apps.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/home/forms.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/home/migrations/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/home/models.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/home/templates/home/base.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/home/templates/home/base_visitor.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/home/templates/home/form_template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/home/templates/home/home_index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/home/templates/home/login.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/home/templates/home/registration.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/home/templatetags/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/home/templatetags/auth_extras.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/home/tests.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/home/urls.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/home/views.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/log/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/log/admin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/log/apps.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/log/migrations/0001_initial.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/log/migrations/0002_exp_user.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/log/migrations/0003_auto_20170703_1850.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/log/migrations/0004_auto_20170805_1705.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/log/migrations/0005_auto_20170805_1731.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/log/migrations/0006_auto_20170806_1146.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/log/migrations/0007_auto_20170806_1147.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/log/migrations/0008_exp_is_favourite.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/log/migrations/0009_auto_20170809_2042.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/log/migrations/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/log/models.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/log/templates/log/detail_blog.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/log/templates/log/exp_form.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/log/templates/log/index_blog.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/log/tests.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/log/urls.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/log/views.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/work_log/settings.py" afterPath="$PROJECT_DIR$/work_log/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/work_log/urls.py" afterPath="$PROJECT_DIR$/work_log/urls.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -53,12 +16,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/work_log/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-822">
-              <caret line="41" column="33" lean-forward="false" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
+            <state relative-caret-position="606">
+              <caret line="125" column="40" lean-forward="true" selection-start-line="125" selection-start-column="40" selection-end-line="125" selection-end-column="40" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/work_log/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -109,7 +84,6 @@
         <option value="$PROJECT_DIR$/log/templates/log/index_home.html" />
         <option value="$PROJECT_DIR$/log/urls.py" />
         <option value="$PROJECT_DIR$/home/templates/home/home.html" />
-        <option value="$PROJECT_DIR$/work_log/urls.py" />
         <option value="$PROJECT_DIR$/home/templates/home/registration_form.html" />
         <option value="$PROJECT_DIR$/home/urls.py" />
         <option value="$PROJECT_DIR$/home/forms.py" />
@@ -126,6 +100,7 @@
         <option value="$PROJECT_DIR$/home/templates/home/base.html" />
         <option value="$PROJECT_DIR$/log/templates/log/index_blog.html" />
         <option value="$PROJECT_DIR$/work_log/settings.py" />
+        <option value="$PROJECT_DIR$/work_log/urls.py" />
       </list>
     </option>
   </component>
@@ -366,13 +341,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/work_log/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/log/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -509,9 +477,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/work_log/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-822">
-          <caret line="41" column="33" lean-forward="false" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
+        <state relative-caret-position="606">
+          <caret line="125" column="40" lean-forward="true" selection-start-line="125" selection-start-column="40" selection-end-line="125" selection-end-column="40" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work_log/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
