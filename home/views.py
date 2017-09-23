@@ -73,3 +73,8 @@ def logout_user(request):
 class CreateAccountView(CreateView):
     model = Account
     fields =['user','date_of_birth','location']
+    def get_queryset(self):
+        if not self.request.user.is_authenticated():
+            return render(self.request, 'home/login.html')
+        else:
+            return redirect('home:index')
