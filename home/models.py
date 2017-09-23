@@ -1,3 +1,4 @@
+from django.shortcuts import redirect
 from django.db import models
 from django.contrib.auth.models import User
 from django.utils import timezone
@@ -9,3 +10,6 @@ class Account(models.Model):
     modified_date = models.DateTimeField('modified_date', default=timezone.now)
     date_of_birth = models.DateTimeField('date_of_birth', default=datetime.datetime.today())
     location = models.CharField(max_length=100)
+
+    def get_absolute_url(self):
+        return redirect('home:index')
