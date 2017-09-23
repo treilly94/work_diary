@@ -1,4 +1,4 @@
-from django.shortcuts import redirect
+from django.core.urlresolvers import reverse
 from django.db import models
 from django.contrib.auth.models import User
 from django.utils import timezone
@@ -12,4 +12,4 @@ class Account(models.Model):
     location = models.CharField(max_length=100)
 
     def get_absolute_url(self):
-        return redirect('home:index')
+        return reverse('home:index')
