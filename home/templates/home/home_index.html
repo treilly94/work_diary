@@ -1,0 +1,30 @@
+{% extends 'home/base.html' %}
+
+<!-- Title of page to edit-->
+{% block title %}STK Logging{% endblock %}
+
+<!-- Makes the page active -->
+{% block home_active %}active{% endblock %}
+
+<!-- Content to edit -->
+{% block content %}
+<div class="col-sm-7">
+    <div class="row">
+        <div class="col-sm-12">
+          <div class="panel panel-default text-left">
+            <div class="panel-body">
+                <h1>Recent Blogs</h1>
+                {% if all_blogs %}
+                    {% for blog in all_blogs %}
+                        <li><a href="{% url 'blog:detail_blog' blog.id  %}">{{ blog.title }}</a></li><p>{{ blog.author }} --- {{ blog.creation_date }}</p>
+                    {% endfor %}
+                {% else %}
+                    <p>Sorry there are no blogs current available</p>
+                {% endif %}
+            </div>
+          </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

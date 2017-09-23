@@ -1,0 +1,31 @@
+<!-- Extending base html -->
+{% extends 'home/base.html' %}
+
+<!-- Title of page to edit-->
+{% block title %}Blogs{% endblock %}
+
+<!-- Makes the page active -->
+{% block blog_active %}active{% endblock %}
+
+<!-- Content to edit -->
+{% block content %}
+<div class="col-sm-7">
+    <h1>Blogs</h1>
+    {% if all_blogs %}
+        {% for blog in all_blogs %}
+            <li><a href="{% url 'blog:detail_blog' blog.id  %}">{{ blog.title }}</a></li><p>-- {{ blog.author }}  -- {{ blog.creation_date }} </p>
+        {% endfor %}
+    {% else %}
+        <p>Sorry there are no blogs current available</p>
+    {% endif %}
+</div>
+<div class="col-sm-3">
+    <br>
+    <a href="{% url 'blog:blog-add' %}">
+        <button type="button" class="btn btn-success">
+            <span class="glyphicon glyphicon-plus"></span>&nbsp; Add a new Blog
+        </button>
+    </a>
+</div>
+
+{% endblock %}

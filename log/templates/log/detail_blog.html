@@ -1,0 +1,25 @@
+<!-- Extending base html -->
+{% extends 'home/base.html' %}
+
+<!-- Title of page to edit-->
+{% block title %}Blogs{% endblock %}
+<!-- Makes the page active -->
+{% block blog_active %}active{% endblock %}
+
+<!-- Content to edit -->
+{% block content %}
+<div class="col-sm-7">
+<h1>{{ one_blog.title }}</h1>
+<h3>{{ one_blog.creation_date}}</h3>
+<h3>{{ one_blog.author}}</h3>
+{% if one_blog.technology == 'N/A' %}
+    <h4>{{ one_blog.type}}</h4>
+{% else %}
+    <h4>{{ one_blog.type}}</h4>
+    <h4>{{ one_blog.technology}}</h4>
+{% endif %}
+
+<p>{{ one_blog.description }}</p>
+</div>
+{% endif %}
+{% endblock %}
