@@ -2,9 +2,11 @@ from django.shortcuts import render, redirect
 from django.contrib.auth import authenticate, login, logout
 
 from django.views import generic
+from django.views.generic.edit import CreateView
 
 from .forms import UserForm
 from log.models import WorkLog
+from .models import Account
 
 
 def has_group(user, group_name):
@@ -66,3 +68,8 @@ def logout_user(request):
         "form": form,
     }
     return render(request, 'home/login.html', context)
+
+
+class CreateAccount(CreateView):
+    model = Account
+    fields =['user','date_of_birth','location']

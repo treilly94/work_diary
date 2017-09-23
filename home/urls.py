@@ -13,4 +13,7 @@ urlpatterns = [
     # Url for logging out
     url(r'^logout_user/$', views.logout_user, name='logout_user'),
 
+    # Url for creating an account
+    url(r'^create_account/$', views.CreateAccountView.as_view(), name='create_account'),
+
 ]
