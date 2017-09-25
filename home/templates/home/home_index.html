@@ -3,12 +3,58 @@
 <!-- Title of page to edit-->
 {% block title %}STK Logging{% endblock %}
 
+<!-- Scripts for this page-->
+{% block extrahead %}
+<script src="//cdnjs.cloudflare.com/ajax/libs/Chart.js/0.2.0/Chart.min.js" type="text/javascript"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js" type="text/javascript"></script>
+
+
+{% endblock %}
 <!-- Makes the page active -->
 {% block home_active %}active{% endblock %}
-
+{% load auth_extras %}
 <!-- Content to edit -->
 {% block content %}
 <div class="col-sm-7">
+<div class="row">
+        <div class="col-sm-12">
+          <div class="panel panel-default text-left">
+            <div class="panel-body">
+                <h1>Your Progress</h1>
+
+                <p> ha what progress</p>
+            </div>
+          </div>
+        </div>
+        {% if request.user|has_group:"Tech Lead" %}
+        <div class="col-sm-12">
+          <div class="panel panel-default text-left">
+            <div class="panel-body">
+                <h1>Your Team Statistics</h1>
+
+
+            </div>
+          </div>
+        </div>
+        {% endif %}
+        <div class="col-sm-12">
+          <div class="panel panel-default text-left">
+            <div class="panel-body">
+                <h1>Your Blog Statistics</h1>
+
+
+            </div>
+          </div>
+        </div>
+
+</div>
+<!-- <canvas id="myChart" width="500" height="300"></canvas> -->
+
+</div>
+
+
+<!-- side bar -->
+<div class="col-sm-3">
     <div class="row">
         <div class="col-sm-12">
           <div class="panel panel-default text-left">
@@ -16,7 +62,7 @@
                 <h1>Recent Blogs</h1>
                 {% if all_blogs %}
                     {% for blog in all_blogs %}
-                        <li><a href="{% url 'blog:detail_blog' blog.id  %}">{{ blog.title }}</a></li><p>{{ blog.author }} --- {{ blog.creation_date }}</p>
+                        <li><a href="{% url 'blog:detail_blog' blog.id  %}">{{ blog.title }}</a></li><p>{{ blog.author.first_name }} {{ blog.author.last_name }}</p>
                     {% endfor %}
                 {% else %}
                     <p>Sorry there are no blogs current available</p>
@@ -26,5 +72,4 @@
         </div>
     </div>
 </div>
-
 {% endblock %}

@@ -1,0 +1,19 @@
+<!-- Extending base html -->
+{% extends 'home/base.html' %}
+
+<!-- Title of page to edit-->
+{% block title %}Your Blog{% endblock %}
+
+<!-- Makes the page active -->
+{% block blog_active %}active{% endblock %}
+
+<!-- Content to edit -->
+{% block content %}
+<div class="col-sm-7">
+<form action="" method="post">{% csrf_token %}
+    <p>Are you really sure you want to deactivate your account?</p>
+    <input class="btn btn-default" type="submit" value="Confirm" />
+    <button onclick="window.history.back();" class="btn btn-default" type="button">Cancel</button>
+</form>
+</div>
+{% endblock %}

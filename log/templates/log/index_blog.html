@@ -13,7 +13,7 @@
     <h1>Blogs</h1>
     {% if all_blogs %}
         {% for blog in all_blogs %}
-            <li><a href="{% url 'blog:detail_blog' blog.id  %}">{{ blog.title }}</a></li><p>-- {{ blog.author }}  -- {{ blog.creation_date }} </p>
+            <li><a href="{% url 'blog:detail_blog' blog.id  %}">{{ blog.title }}</a></li><p>-- {{ blog.author.first_name }} {{ blog.author.last_name }}  -- {{ blog.creation_date }} </p>
         {% endfor %}
     {% else %}
         <p>Sorry there are no blogs current available</p>

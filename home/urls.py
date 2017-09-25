@@ -15,5 +15,12 @@ urlpatterns = [
 
     # Url for creating an account
     url(r'^create_account/$', views.CreateAccountView.as_view(), name='create_account'),
-
+    # Url for creating an account
+    url(r'^account/$', views.AccountView, name='view_account'),
+    # Url for Editing an account
+    url(r'^account-edit/$', views.UpdateAccountView, name='edit_account'),
+    # Url for Deleting an account
+    url(r'^deactivate-account/$', views.DeactivateAccount, name='deactivate_account'),
 ]
+
+# (?P<pk>[0-9]+)

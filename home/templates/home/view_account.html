@@ -1,0 +1,36 @@
+<!-- Extending base html -->
+{% extends 'home/base.html' %}
+
+<!-- Title of page to edit-->
+{% block title %}Your Account{% endblock %}
+
+<!-- Makes the page active -->
+{% block account_active %}active{% endblock %}
+
+<!-- Content to edit -->
+{% block content %}
+<div class="col-sm-7">
+    <h1>Your Account</h1>
+    <p><b>First Name:</b>  {{ account.user.first_name }}</p>
+    <p><b>Last Name:</b>  {{ account.user.last_name }}</p>
+    <p><b>Username:</b>  {{ account.user }}</p>
+    <p><b>Email Addres:</b>  {{ account.user.email }}</p>
+    <p><b>Date Of Birth:</b>  {{ account.date_of_birth}}</p>
+    <p><b>Work Location:</b>  {{ account.location}}</p>
+    <p><b>Account Created:</b>  {{ account.creation_date}}</p>
+    <p><b>Last Modifeid:</b>  {{ account.modified_date}}</p>
+</div>
+<div class="col-sm-3">
+    <br>
+    <a href="{% url 'home:edit_account' %}">
+        <button type="button" class="btn btn-success">
+            <span class="glyphicon glyphicon-edit"></span>&nbsp; Edit Info
+        </button>
+    </a>
+    <a href="{% url 'home:deactivate_account' %}">
+        <button type="button" class="btn btn-success">
+            <span class="glyphicon glyphicon-remove"></span>&nbsp; Deactivate Account
+        </button>
+    </a>
+</div>
+{% endblock %}

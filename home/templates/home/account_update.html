@@ -1,0 +1,27 @@
+<!-- Extending base html -->
+{% extends 'home/base.html' %}
+
+<!-- Title of page to edit-->
+{% block title %}Your Account{% endblock %}
+
+<!-- Makes the page active -->
+{% block account_active %}active{% endblock %}
+
+<!-- Content to edit -->
+{% block content %}
+<div class="col-sm-7">
+
+
+<form action="" method="post">
+    {% csrf_token %}
+
+    {{ form_user}}
+    {{ form_extended }}
+
+    <input type="submit" value="Submit" class="btn btn-primary" />
+    <button onclick="window.history.back();" class="btn btn-default" type="button">Cancel</button>
+</form>
+
+
+</div>
+{% endblock %}
