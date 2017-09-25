@@ -7,8 +7,10 @@
 	<!-- loads the path to your static files -->
 	{% load staticfiles %}
 	<link rel=stylesheet" type="text/css" href="{% static 'log/style.css' %}"/>
+	<script src="{% static 'charts.js' %}" type="text/javascript"></script>
 	{% load auth_extras %}
 	<!-- Latest compiled and minified CSS -->
+	{% block extrahead %}{% endblock %}
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -34,7 +36,7 @@
             	<li class="{% block blog_active %}{% endblock %}"><a href="{% url 'blog:index_blog' %}"><span class="glyphicon glyphicon-book" aria-hidden="true"></span>&nbsp; Blogs</a></li>
 			</ul>
 			<ul class="nav navbar-nav navbar-right">
-				<li class="{% block account_active %}{% endblock %}"><a href="{% url 'home:create_account' %}"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>&nbsp; Account</a></li>
+				<li class="{% block account_active %}{% endblock %}"><a href="{% url 'home:view_account' %}"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>&nbsp; Account</a></li>
 				<li>
 					<a href="{% url 'home:logout_user' %}">
 						<span class="glyphicon glyphicon-off" aria-hidden="true"></span>&nbsp; Logout
