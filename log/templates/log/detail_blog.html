@@ -22,6 +22,18 @@
 <p>{{ one_blog.description }}</p>
 </div>
 {% if one_blog.author ==  user%}
-
+<div class="col-sm-3">
+    <br>
+    <a href="{% url 'blog:edit_blog' one_blog.id %}">
+        <button type="button" class="btn btn-success">
+            <span class="glyphicon glyphicon-edit"></span>&nbsp; Edit Blog
+        </button>
+    </a>
+        <a href="{% url 'blog:delete_blog' one_blog.id %}">
+        <button type="button" class="btn btn-success">
+            <span class="glyphicon glyphicon-remove"></span>&nbsp; Delete Blog
+        </button>
+    </a>
+</div>
 {% endif %}
 {% endblock %}
