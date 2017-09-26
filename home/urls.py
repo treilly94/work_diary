@@ -5,7 +5,7 @@ app_name = "home"
 urlpatterns = [
 
     #URL for the homepage
-    url(r'^$', views.HomeView.as_view(), name='index'),
+    url(r'^$', views.HomeView, name='index'),
     # Url for registering
     url(r'^register/$', views.registration, name='register'),
     # Url for logging in
