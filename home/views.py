@@ -13,15 +13,24 @@ def has_group(user, group_name):
     return user.groups.filter(name=group_name).exists()
 
 # Home page for the Blogs
-class HomeView(generic.ListView):
-    template_name='home/home_index.html'
-    context_object_name ='all_blogs'
-    def get_queryset(self):
-        if not self.request.user.is_authenticated():
-            return render(self.request, 'home/login.html')
-        else:
-            return WorkLog.objects.order_by('-creation_date')[:3]
+# class HomeView(generic.ListView):
+#     template_name = 'home/home_index.html'
+#     context_object_name = 'all_blogs'
+#
+#     def get_queryset(self):
+#         if not self.request.user.is_authenticated():
+#             return render(self.request, 'home/login.html')
+#         else:
+#             return WorkLog.objects.order_by('-creation_date')[:3]
 
+def HomeView(request):
+    logs =  WorkLog
+    template_name = 'home/home_index.html'
+    if not request.user.is_authenticated():
+        return render(request, 'home/login.html')
+    else:
+        recent_logs = logs.objects.order_by('-creation_date')[:3]
+        return render(request, template_name, {'all_blogs' : recent_logs})
 
 
 def registration(request):
