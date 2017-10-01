@@ -16,41 +16,27 @@
 <!-- Content to edit -->
 {% block content %}
 <div class="col-sm-7">
-<div class="row">
-        <div class="col-sm-12">
-          <div class="panel panel-default text-left">
-            <div class="panel-body">
-                <h1>Your Progress</h1>
-
-                <p> ha what progress</p>
-            </div>
-          </div>
-        </div>
+    <ul class="nav nav-tabs">
+        <li class="active"><a data-toggle="tab" href="#your_progess">Your Progress</a></li>
         {% if request.user|has_group:"Tech Lead" %}
-        <div class="col-sm-12">
-          <div class="panel panel-default text-left">
-            <div class="panel-body">
-                <h1>Your Team Statistics</h1>
-
-
-            </div>
-          </div>
-        </div>
+        <li><a data-toggle="tab" href="#your_team">Your Team</a></li>
         {% endif %}
-        <div class="col-sm-12">
-          <div class="panel panel-default text-left">
-            <div class="panel-body">
-                <h1>Your Blog Statistics</h1>
+    </ul>
 
 
-            </div>
-          </div>
+
+    <div class="tab-content">
+        <div id="your_progess" class="tab-pane fade in active">
+            <p>bye</p>
         </div>
-
+        <div id="your_team" class="tab-pane fade">
+            <p>hi</p>
+        </div>
+    </div>
 </div>
-<!-- <canvas id="myChart" width="500" height="300"></canvas> -->
 
-</div>
+
+
 
 
 <!-- side bar -->
